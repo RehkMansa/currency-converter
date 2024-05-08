@@ -1,0 +1,1104 @@
+{
+  "status": "success",
+  "message": "Successful",
+  "data": [
+    {
+      "id": "usdtusd",
+      "name": "USDT/USD",
+      "base_unit": "usdt",
+      "quote_unit": "usd",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "qdxusdt",
+      "name": "QDX/USDT",
+      "base_unit": "qdx",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 0,
+        "quote_precision": 2,
+        "price_precision": 5,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "btcusdt",
+      "name": "BTC/USDT",
+      "base_unit": "btc",
+      "quote_unit": "usdt",
+      "filters": {
+        "price_step": 1
+      },
+      "trading_rules": {
+        "base_precision": 5,
+        "quote_precision": 2,
+        "price_precision": 2,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "btcngn",
+      "name": "BTC/NGN",
+      "base_unit": "btc",
+      "quote_unit": "ngn",
+      "filters": {
+        "price_step": 1
+      },
+      "trading_rules": {
+        "base_precision": 5,
+        "quote_precision": 0,
+        "price_precision": 0,
+        "minimum_order_size": 50
+      }
+    },
+    {
+      "id": "ethngn",
+      "name": "ETH/NGN",
+      "base_unit": "eth",
+      "quote_unit": "ngn",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 4,
+        "quote_precision": 0,
+        "price_precision": 0,
+        "minimum_order_size": 50
+      }
+    },
+    {
+      "id": "qdxngn",
+      "name": "QDX/NGN",
+      "base_unit": "qdx",
+      "quote_unit": "ngn",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 0,
+        "quote_precision": 0,
+        "price_precision": 2,
+        "minimum_order_size": 50
+      }
+    },
+    {
+      "id": "xrpngn",
+      "name": "XRP/NGN",
+      "base_unit": "xrp",
+      "quote_unit": "ngn",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 0,
+        "quote_precision": 0,
+        "price_precision": 2,
+        "minimum_order_size": 50
+      }
+    },
+    {
+      "id": "dashngn",
+      "name": "DASH/NGN",
+      "base_unit": "dash",
+      "quote_unit": "ngn",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 3,
+        "quote_precision": 0,
+        "price_precision": 0,
+        "minimum_order_size": 50
+      }
+    },
+    {
+      "id": "ltcngn",
+      "name": "LTC/NGN",
+      "base_unit": "ltc",
+      "quote_unit": "ngn",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 3,
+        "quote_precision": 0,
+        "price_precision": 0,
+        "minimum_order_size": 50
+      }
+    },
+    {
+      "id": "usdtngn",
+      "name": "USDT/NGN",
+      "base_unit": "usdt",
+      "quote_unit": "ngn",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 0,
+        "price_precision": 2,
+        "minimum_order_size": 50
+      }
+    },
+    {
+      "id": "btcghs",
+      "name": "BTC/GHS",
+      "base_unit": "btc",
+      "quote_unit": "ghs",
+      "filters": {
+        "price_step": 1
+      },
+      "trading_rules": {
+        "base_precision": 5,
+        "quote_precision": 2,
+        "price_precision": 2,
+        "minimum_order_size": 0.5
+      }
+    },
+    {
+      "id": "usdtghs",
+      "name": "USDT/GHS",
+      "base_unit": "usdt",
+      "quote_unit": "ghs",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 2,
+        "minimum_order_size": 0.5
+      }
+    },
+    {
+      "id": "trxngn",
+      "name": "TRX/NGN",
+      "base_unit": "trx",
+      "quote_unit": "ngn",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 0,
+        "price_precision": 2,
+        "minimum_order_size": 50
+      }
+    },
+    {
+      "id": "dogeusdt",
+      "name": "DOGE/USDT",
+      "base_unit": "doge",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 0,
+        "quote_precision": 2,
+        "price_precision": 5,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "bnbusdt",
+      "name": "BNB/USDT",
+      "base_unit": "bnb",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 5,
+        "quote_precision": 2,
+        "price_precision": 1,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "maticusdt",
+      "name": "MATIC/USDT",
+      "base_unit": "matic",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 1,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "usdcusdt",
+      "name": "USDC/USDT",
+      "base_unit": "usdc",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "aaveusdt",
+      "name": "AAVE/USDT",
+      "base_unit": "aave",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 3,
+        "quote_precision": 2,
+        "price_precision": 2,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "shibusdt",
+      "name": "SHIB/USDT",
+      "base_unit": "shib",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 0,
+        "quote_precision": 2,
+        "price_precision": 8,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "dotusdt",
+      "name": "DOT/USDT",
+      "base_unit": "dot",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 3,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "linkusdt",
+      "name": "LINK/USDT",
+      "base_unit": "link",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 3,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "cakeusdt",
+      "name": "CAKE/USDT",
+      "base_unit": "cake",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 3,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "xlmusdt",
+      "name": "XLM/USDT",
+      "base_unit": "xlm",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 0,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "xrpusdt",
+      "name": "XRP/USDT",
+      "base_unit": "xrp",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 0,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "ltcusdt",
+      "name": "LTC/USDT",
+      "base_unit": "ltc",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 3,
+        "quote_precision": 2,
+        "price_precision": 2,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "ethusdt",
+      "name": "ETH/USDT",
+      "base_unit": "eth",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 4,
+        "quote_precision": 2,
+        "price_precision": 2,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "trxusdt",
+      "name": "TRX/USDT",
+      "base_unit": "trx",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 5,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "axsusdt",
+      "name": "AXS/USDT",
+      "base_unit": "axs",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 2,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "dashusdt",
+      "name": "DASH/USDT",
+      "base_unit": "dash",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 3,
+        "quote_precision": 2,
+        "price_precision": 2,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "filusdt",
+      "name": "FIL/USDT",
+      "base_unit": "fil",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 3,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "babydogeusdt",
+      "name": "BABYDOGE/USDT",
+      "base_unit": "babydoge",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 0,
+        "quote_precision": 2,
+        "price_precision": 13,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "adausdt",
+      "name": "ADA/USDT",
+      "base_unit": "ada",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 1,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "oneusdt",
+      "name": "ONE/USDT",
+      "base_unit": "one",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 0,
+        "quote_precision": 2,
+        "price_precision": 5,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "bchusdt",
+      "name": "BCH/USDT",
+      "base_unit": "bch",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 3,
+        "quote_precision": 2,
+        "price_precision": 2,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "xtzusdt",
+      "name": "XTZ/USDT",
+      "base_unit": "xtz",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 1,
+        "quote_precision": 2,
+        "price_precision": 3,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "slpusdt",
+      "name": "SLP/USDT",
+      "base_unit": "slp",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 0,
+        "quote_precision": 2,
+        "price_precision": 6,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "sushiusdt",
+      "name": "SUSHI/USDT",
+      "base_unit": "sushi",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 1,
+        "quote_precision": 2,
+        "price_precision": 3,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "zilusdt",
+      "name": "ZIL/USDT",
+      "base_unit": "zil",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 1,
+        "quote_precision": 2,
+        "price_precision": 5,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "flokiusdt",
+      "name": "FLOKI/USDT",
+      "base_unit": "floki",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 0,
+        "quote_precision": 2,
+        "price_precision": 10,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "solusdt",
+      "name": "SOL/USDT",
+      "base_unit": "sol",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 6,
+        "quote_precision": 2,
+        "price_precision": 2,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "manausdt",
+      "name": "MANA/USDT",
+      "base_unit": "mana",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 0,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "ftmusdt",
+      "name": "FTM/USDT",
+      "base_unit": "ftm",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 0,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "sandusdt",
+      "name": "SAND/USDT",
+      "base_unit": "sand",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 0,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "apeusdt",
+      "name": "APE/USDT",
+      "base_unit": "ape",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "enjusdt",
+      "name": "ENJ/USDT",
+      "base_unit": "enj",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 1,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "lrcusdt",
+      "name": "LRC/USDT",
+      "base_unit": "lrc",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 0,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "cfxusdt",
+      "name": "CFX/USDT",
+      "base_unit": "cfx",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 0,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "wldusdt",
+      "name": "WLD/USDT",
+      "base_unit": "wld",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 1,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "pepeusdt",
+      "name": "PEPE/USDT",
+      "base_unit": "pepe",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 0,
+        "quote_precision": 2,
+        "price_precision": 8,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "memeusdt",
+      "name": "MEME/USDT",
+      "base_unit": "meme",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 0,
+        "quote_precision": 2,
+        "price_precision": 6,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "bonkusdt",
+      "name": "BONK/USDT",
+      "base_unit": "bonk",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 0,
+        "quote_precision": 2,
+        "price_precision": 8,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "ordiusdt",
+      "name": "ORDI/USDT",
+      "base_unit": "ordi",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 3,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "ensusdt",
+      "name": "ENS/USDT",
+      "base_unit": "ens",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 2,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "algousdt",
+      "name": "ALGO/USDT",
+      "base_unit": "algo",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 0,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "arbusdt",
+      "name": "ARB/USDT",
+      "base_unit": "arb",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 1,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "wifusdt",
+      "name": "WIF/USDT",
+      "base_unit": "wif",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "myrousdt",
+      "name": "MYRO/USDT",
+      "base_unit": "myro",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 5,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "trumpusdt",
+      "name": "TRUMP/USDT",
+      "base_unit": "trump",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 3,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "cobusdt",
+      "name": "COB/USDT",
+      "base_unit": "cob",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 0,
+        "quote_precision": 2,
+        "price_precision": 8,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "nosusdt",
+      "name": "NOS/USDT",
+      "base_unit": "nos",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "jupusdt",
+      "name": "JUP/USDT",
+      "base_unit": "jup",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 1,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "blurusdt",
+      "name": "BLUR/USDT",
+      "base_unit": "blur",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 1,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "katausdt",
+      "name": "KATA/USDT",
+      "base_unit": "kata",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 8,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "coqusdt",
+      "name": "COQ/USDT",
+      "base_unit": "coq",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 9,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "wassieusdt",
+      "name": "WASSIE/USDT",
+      "base_unit": "wassie",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 1,
+        "quote_precision": 2,
+        "price_precision": 8,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "fetusdt",
+      "name": "FET/USDT",
+      "base_unit": "fet",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 0,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "nearusdt",
+      "name": "NEAR/USDT",
+      "base_unit": "near",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 3,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "aiusdt",
+      "name": "AI/USDT",
+      "base_unit": "ai",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 3,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "bobusdt",
+      "name": "BOB/USDT",
+      "base_unit": "bob",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 8,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "slerfusdt",
+      "name": "SLERF/USDT",
+      "base_unit": "slerf",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "bomeusdt",
+      "name": "BOME/USDT",
+      "base_unit": "bome",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 6,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "stxusdt",
+      "name": "STX/USDT",
+      "base_unit": "stx",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "tonusdt",
+      "name": "TON/USDT",
+      "base_unit": "ton",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "rndrusdt",
+      "name": "RNDR/USDT",
+      "base_unit": "rndr",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "mogusdt",
+      "name": "MOG/USDT",
+      "base_unit": "mog",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 0,
+        "quote_precision": 2,
+        "price_precision": 10,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "injusdt",
+      "name": "INJ/USDT",
+      "base_unit": "inj",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 4,
+        "quote_precision": 2,
+        "price_precision": 3,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "reachusdt",
+      "name": "REACH/USDT",
+      "base_unit": "reach",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 5,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "mntusdt",
+      "name": "MNT/USDT",
+      "base_unit": "mnt",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 4,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "beamusdt",
+      "name": "BEAM/USDT",
+      "base_unit": "beam",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 6,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "strkusdt",
+      "name": "STRK/USDT",
+      "base_unit": "strk",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 4,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "nochillusdt",
+      "name": "NOCHILL/USDT",
+      "base_unit": "nochill",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 6,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "mewusdt",
+      "name": "MEW/USDT",
+      "base_unit": "mew",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 6,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "gnousdt",
+      "name": "GNO/USDT",
+      "base_unit": "gno",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 1,
+        "minimum_order_size": 0.1
+      }
+    },
+    {
+      "id": "wavesusdt",
+      "name": "WAVES/USDT",
+      "base_unit": "waves",
+      "quote_unit": "usdt",
+      "filters": {},
+      "trading_rules": {
+        "base_precision": 2,
+        "quote_precision": 2,
+        "price_precision": 3,
+        "minimum_order_size": 0.1
+      }
+    }
+  ]
+}
